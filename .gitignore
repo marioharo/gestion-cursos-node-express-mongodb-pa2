@@ -1,0 +1,44 @@
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores y IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Carpetas de desarrollo y build ===
+node_modules/
+dist/
+build/
+out/
+_production/
+
+# === Logs y errores ===
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# === Archivos temporales ===
+.tmp
+temp/
+.cache
+
+# === Archivos de backup ===
+*.bak
+*.backup
+*.old
+
+# === Sistemas de control de versiones anidados ===
+.git/
+.hg/
+.svn/
+
+# === Archivos y datos sensibles (¡jamás los subas!) ===
+.env
+.env.local
+config.json
+secrets/
